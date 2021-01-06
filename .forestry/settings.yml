@@ -24,6 +24,10 @@ sections:
   match: "*"
   templates:
   - person
+- type: document
+  path: code
+  label: Code and Data
+  match: "**/*"
 - type: directory
   path: _projects
   label: Projects
@@ -31,6 +35,10 @@ sections:
   match: "*"
   templates:
   - project
+- type: document
+  path: sparglab
+  label: SPARG Lab
+  match: "**/*"
 - type: document
   path: _data/information.yml
   label: Contact Information
